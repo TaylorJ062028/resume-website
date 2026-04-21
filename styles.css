@@ -1,72 +1,74 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  background: #ffe4ec; /* baby pink */
-  color: #333;
-  font-size: 18px;
+    font-family: Arial, sans-serif;
+    background-color: #ffe6f0;
+    margin: 0;
+    padding: 0;
+    color: #333;
 }
 
 /* HEADER */
 header {
-  text-align: center;
-  padding: 2.5rem;
-  background: #ffb6c1;
-  color: white;
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #ffb6d9;
 }
 
 header h1 {
-  font-size: 3rem;
-  margin: 0;
+    font-size: 3rem;
+    margin: 0;
+    color: #ff1493;
 }
 
 header p {
-  font-size: 1.2rem;
-  margin-top: 5px;
+    font-size: 1.2rem;
 }
 
 /* SECTIONS */
 section {
-  padding: 1.5rem 2rem;
-  max-width: 900px;
-  margin: auto;
+    padding: 25px;
+    max-width: 900px;
+    margin: auto;
 }
 
 h2 {
-  margin-bottom: 0.5rem;
-  border-bottom: 2px solid #ccc;
-}
-
-/* TEXT */
-p {
-  margin: 0.5rem 0;
-  line-height: 1.6;
-}
-
-/* ABOUT HIGHLIGHT */
-#about p:first-of-type {
-  font-weight: bold;
-  color: #c94f7c;
+    font-size: 1.8rem;
+    border-bottom: 2px solid #ffb6d9;
+    padding-bottom: 5px;
 }
 
 /* CARDS */
 .card {
-  background: white;
-  padding: 1.2rem;
-  margin: 0.8rem 0;
-  border-radius: 15px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    background: white;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 10px;
 }
 
-/* SKILLS GRID */
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-  gap: 10px;
+/* DATES */
+.date {
+    display: block;
+    font-size: 0.9rem;
+    color: gray;
+    margin-bottom: 8px;
 }
 
-.grid div {
-  background: #ffc0cb;
-  padding: 10px;
-  text-align: center;
-  border-radius: 8px;
+/* SKILLS */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills li {
+    background: white;
+    padding: 8px 12px;
+    border-radius: 8px;
+    list-style: none;
+}
+
+/* LINKS */
+a {
+    color: #ff1493;
+    text-decoration: none;
+    font-weight: bold;
 }
